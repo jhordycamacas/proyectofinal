@@ -30,20 +30,22 @@ public class Ej1 {
 
         if (angua == 90 || angub == 90 || anguc == 90) {
             tipo = "Triangulo Rectangulo";
+            System.out.println("El tipo de triangulo es: " + tipo); 
         } else {
             if (angua > 90 && angua < 180 || angub > 90 && angub < 180
                     || anguc > 90 && anguc < 180) {
                 tipo = "Triangulo Obtusangulo";
+                System.out.println("El tipo de triangulo es: " + tipo); 
             } else {
                 if (angua < 90 || angub < 90 || anguc < 90) {
                     tipo = "Triangulo Acutangulo";
+                    System.out.println("El tipo de triangulo es: " + tipo); 
                 } else {
                     System.out.println("No es un triangulo");
                 }
             }
 
         }
-        System.out.println("El tipo de triangulo es: " + tipo); 
     }
     
 }

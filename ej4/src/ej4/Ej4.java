@@ -26,7 +26,7 @@ public class Ej4 {
             cadenaFinal = cadenaFinal + fraccion;
             den = den + 1;
         }
-        System.out.printf("%.2f\n", cadenaFinal);
+        System.out.printf("El resultado de la suma es: %.2f\n", cadenaFinal);
 
     }
 

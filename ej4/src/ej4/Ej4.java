@@ -4,17 +4,32 @@
  */
 package ej4;
 
-/**
- *
- * @author usuario
- */
+import java.util.Scanner;
+import java.util.Locale;
+
 public class Ej4 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner entrada = new Scanner(System.in);
+        entrada.useLocale(Locale.US);
+
+        double cadenaFinal = 0;
+        double num = 1;
+        double den = 1;
+        double fraccion;
+
+        while (den <= 100) {
+            fraccion = num / den;
+            cadenaFinal = cadenaFinal + fraccion;
+            den = den + 1;
+        }
+        System.out.printf("%.2f\n", cadenaFinal);
+
     }
-    
+
 }
+
+

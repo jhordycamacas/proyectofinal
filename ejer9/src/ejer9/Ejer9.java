@@ -20,7 +20,7 @@ public class Ejer9 {
         double renta = 800;
         int meses = 12;
 
-        // Arreglo con los nombres de los meses
+     
         String[] nombresMeses = {
             "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
             "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"

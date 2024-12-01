@@ -35,9 +35,6 @@ public class Ejer5 {
             }
             System.out.printf("El resultado de la suma es: %d\n", suma);
         }
-
-        
-
     }
 
 }

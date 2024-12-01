@@ -19,9 +19,9 @@ public class Ejer7 {
         
         int numerorep;
         String cadenaFinal;
-        int numero1 = 12;
-        int numero2 = 11;
-        int contador = 1;
+        int numero1;
+        int numero2;
+        int contador;
 
         cadenaFinal = "S1= ";
 
@@ -29,14 +29,14 @@ public class Ejer7 {
                 + "serie");
         numerorep = entrada.nextInt();
 
-        while (contador <= numerorep){
-            numero1 = numero1 * contador;
-            numero2 = numero2 * contador;
+        for (contador = 1;contador <= numerorep;contador++){
+            numero1 =12 * contador;
+            numero2 = 11 * contador;
             cadenaFinal = cadenaFinal + "+" + numero1 + "-" + numero2;
         }
 
         
-        System.out.printf("%s\n", cadenaFinal);
+        System.out.printf("%s\n",cadenaFinal);
 
     }
 }
